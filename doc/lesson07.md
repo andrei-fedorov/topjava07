@@ -97,7 +97,7 @@
 
 #### Optional
 - Заменить `@DATETIMEFORMAT` на свой LocalDateTime конвертор или форматтер.
-- Протестировать `UserMealRestController` через SoapUi или `curl`.
+- Протестировать `UserMealRestController` через любой инструмент (SoapUi, curl, IDEA Test RESTful Web Service, Postman)
   -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
   -  <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">Difference between Spring MVC formatters and converters</a>
 
