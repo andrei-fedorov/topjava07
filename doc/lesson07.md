@@ -113,6 +113,11 @@
 
 hamcrest-all используется в проверках `RootControllerTest`: `org.hamcrest.Matchers.*`
 
+>  Jackson мы просто подключаем в помнике и спринг будет с ним работать без любых других настроек?
+
+Да, Spring смотрит в classpath и если видит там Jackson, то подключает интеграцию с ним
+
+
 ---------------------
 ## ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Подсказки по HW07
 - для тестирования в UserMealRestController списка UserMealWithExceeded сделайте ModelMatcher&lt;UserMealWithExceed, String&gt;
