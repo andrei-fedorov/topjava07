@@ -112,6 +112,7 @@
 >  В чем заключается расширение функциональности hamcrest в нашем тесте, что нам пришлось его отдельно от JUnit прописывать?
 
 hamcrest-all используется в проверках `RootControllerTest`: `org.hamcrest.Matchers.*`
+
 ---------------------
 ## ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Подсказки по HW07
 - для тестирования в UserMealRestController списка UserMealWithExceeded сделайте ModelMatcher&lt;UserMealWithExceed, String&gt;
