@@ -77,7 +77,7 @@
   - <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a>
 (для Windows можно использовать Git Bash)
   - <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop">Postman</a>
-  - <a href="https://www.jetbrains.com/help/idea/2016.1/rest-client-tool-window.html">IDEA: Tools->Test RESTful Web Service</a>
+  - <a href="https://www.jetbrains.com/help/idea/rest-client-tool-window.html">IDEA: Tools->Test RESTful Web Service</a>
 
 >  Импортировать проект в SoapUi из config\Topjava-soapui-project.xml
 
