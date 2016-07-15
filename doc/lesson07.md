@@ -72,7 +72,12 @@
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVXNmOUdBbUxxWVU">Тестирование через SoapUi. UTF-8</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWGhiQ3hNOWVmeUU">15-soapui-utf8-converter.patch</a>**
 - Решение проблемы с UTF-8 в `StringHttpMessageConverter`
-- <a href="http://www.soapui.org/">SoapUi</a>
+- Инструменты тестирования REST:
+  - <a href="http://www.soapui.org/">SoapUi</a>
+  - <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a>
+(для Windows можно использовать Git Bash)
+  - <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop">Postman</a>
+  - <a href="https://www.jetbrains.com/help/idea/2016.1/rest-client-tool-window.html">IDEA: Tools->Test RESTful Web Service</a>
 
 >  Импортировать проект в SoapUi из config\Topjava-soapui-project.xml
 
@@ -95,9 +100,6 @@
 - Протестировать `UserMealRestController` через SoapUi или `curl`.
   -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
   -  <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">Difference between Spring MVC formatters and converters</a>
-  -  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a>
-(для Windows можно использовать Git Bash)
-
 
 ## ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Ваши вопросы
 > При выполнении тестов через MockMvc никаких изменений на базе не видно, почему оно не сохраняет?
