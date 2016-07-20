@@ -5,21 +5,21 @@
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFbUhMdTdESkpFekE">HW6</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFOWZKZ1d0eWRBZzA">01-HW6-fix-tests.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTHVDUG5aYlVzZWM">02-HW6-jsp-i18n.patch</a>**
--  <a href="http://stackoverflow.com/questions/10327390/how-should-i-get-root-folder-path-in-jsp-page">Root path in JSP</a>
+   -  <a href="http://stackoverflow.com/questions/10327390/how-should-i-get-root-folder-path-in-jsp-page">Root path in JSP</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWVUtN0ZrdHR6MG8">03-HW6-meals.patch</a>**
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFLWJrSHk0YlNzYTQ">04-HW6-fix-relative-url-utf8.patch</a>**
--  <a href="http://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name">Relative paths in JSP</a>
--  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">Spring redirect: prefix</a>
+   -  <a href="http://stackoverflow.com/questions/4764405/how-to-use-relative-paths-without-including-the-context-root-name">Relative paths in JSP</a>
+   -  <a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/mvc.html#mvc-redirecting-redirect-prefix">Spring redirect: prefix</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaXViWkkwYkF0eW8">HW6 Optional</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWThSUHBZWFVjaEE">05-HW6-optional-add-role.patch</a>**
+   - <a href="http://stackoverflow.com/questions/29602386/how-does-the-fetchmode-work-in-spring-data-jpa#29651595">How does the FetchMode work in Spring Data JPA</a>
+   - <a href="https://docs.oracle.com/javaee/7/tutorial/persistence-entitygraphs002.htm">Using Named Entity Graphs</a>
 
 > Изменения в проекте: ввел `EntityGraph`
 
-- <a href="http://stackoverflow.com/questions/29602386/how-does-the-fetchmode-work-in-spring-data-jpa#29651595">How does the FetchMode work in Spring Data JPA</a>
-- <a href="https://docs.oracle.com/javaee/7/tutorial/persistence-entitygraphs002.htm">Using Named Entity Graphs</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFR2xVVkdiTzNsNU0">06-HW6-optional-jdbc.patch</a>**
--  <a href="http://easy-code.ru/lesson/local-anonymous-nested-classes-java">Локальные классы</a>
+   -  <a href="http://easy-code.ru/lesson/local-anonymous-nested-classes-java">Локальные классы</a>
 
 ## Занятие 7:
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTEtkSldKUnE4VkE">Auto generate DDL.</a>
@@ -57,7 +57,7 @@
 -  <a href="https://www.sghill.net/how-do-i-write-a-jackson-json-serializer-deserializer.html">Jackson JSON Serializer & Deserializer</a>
 -  Сериализация hibernate lazy-loading с помощью <a href="https://github.com/FasterXML/jackson-datatype-hibernate">jackson-datatype-hibernate</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVndyUnhHaVNzOGc">12-jackson-jsr310.patch</a>**
->  Переводим сериализацию-десеарелизацию LocalDateTime на jsr310 и стандартный формат ISO-8601
+>  Переводим сериализацию-десериализацию LocalDateTime на jsr310 и стандартный формат ISO-8601
 -  <a href="http://stackoverflow.com/questions/28802544/java-8-localdate-jackson-format#28803634">jackson-datatype-jsr310</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMnEyM2NtVWtFQjA">13-test-with-matcher.patch</a>**
 -  <a href="http://habrahabr.ru/post/259055/">Тестируем Spring Rest контроллеры</a>: проверка JSON-содержимого ответа через собственный ResultMatcher
@@ -72,7 +72,12 @@
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVXNmOUdBbUxxWVU">Тестирование через SoapUi. UTF-8</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFWGhiQ3hNOWVmeUU">15-soapui-utf8-converter.patch</a>**
 - Решение проблемы с UTF-8 в `StringHttpMessageConverter`
-- <a href="http://www.soapui.org/">SoapUi</a>
+- Инструменты тестирования REST:
+  - <a href="http://www.soapui.org/">SoapUi</a>
+  - <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a>
+(для Windows можно использовать Git Bash)
+  - <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop">Postman</a>
+  - <a href="https://www.jetbrains.com/help/idea/rest-client-tool-window.html">IDEA: Tools->Test RESTful Web Service</a>
 
 >  Импортировать проект в SoapUi из config\Topjava-soapui-project.xml
 
@@ -92,12 +97,9 @@
 
 #### Optional
 - Заменить `@DATETIMEFORMAT` на свой LocalDateTime конвертор или форматтер.
-- Протестировать `UserMealRestController` через SoapUi или `curl`.
--  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
--  <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">Difference between Spring MVC formatters and converters</a>
--  <a href="http://rus-linux.net/lib.php?name=/MyLDP/internet/curlrus.html">Написание HTTP-запросов с помощью Curl</a>
-(для Windows можно использовать Git Bash)
-
+- Протестировать `UserMealRestController` через любой инструмент (SoapUi, curl, IDEA Test RESTful Web Service, Postman)
+  -  <a href="http://docs.spring.io/spring/docs/current/spring-framework-reference/html/mvc.html#mvc-config-conversion">Кастомный Spring конвертор</a>
+  -  <a href="http://stackoverflow.com/questions/13048368/difference-between-spring-mvc-formatters-and-converters">Difference between Spring MVC formatters and converters</a>
 
 ## ![question](https://cloud.githubusercontent.com/assets/13649199/13672858/9cd58692-e6e7-11e5-905d-c295d2a456f1.png) Ваши вопросы
 > При выполнении тестов через MockMvc никаких изменений на базе не видно, почему оно не сохраняет?
@@ -108,6 +110,15 @@
   Почему его оставляет сериализатор? (конечно если выставим NON_EMPTY то уберет)
 
 Там lazy коллекция, а не null. Думаю, что Hibernate5Module уже после логики NOT_NULL (JacksonObjectMapper) ее обнуляет.
+
+>  В чем заключается расширение функциональности hamcrest в нашем тесте, что нам пришлось его отдельно от JUnit прописывать?
+
+hamcrest-all используется в проверках `RootControllerTest`: `org.hamcrest.Matchers.*`
+
+>  Jackson мы просто подключаем в помнике и спринг будет с ним работать без любых других настроек?
+
+Да, Spring смотрит в classpath и если видит там Jackson, то подключает интеграцию с ним
+
 
 ---------------------
 ## ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Подсказки по HW07
