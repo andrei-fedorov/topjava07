@@ -41,6 +41,7 @@
 
 ##  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNXJmeTZBbmduaU0">Bootstrap</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdndYZ2Zvc2dEaTg">6-bootstrap.patch</a>**
+
 > **В патч картинки не берутся, положить вручную <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTVduaXhPWnl5T0U">icon-meal.png</a> в `\src\main\webapp\resources\images\icon-meal.png`**
 
 -  <a href="http://getbootstrap.com/getting-started/">Подключаем Bootstrap</a>. Форматируем JSP.
