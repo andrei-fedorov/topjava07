@@ -50,6 +50,7 @@
 
 ##  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYjhIVDNkallsTTQ">AJAX. Datatables. jQuery</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFNFl6eUVDTjQxT00">7-ajax-datatables.patch</a>**
+
 >  JSP полезны, если надо с сервера отдать статический html с серверной логикой (условия, циклы), сформированный на основе модели.
 Для динамической отрисовки таблицы мы будем использовать REST и JSON на 9м уроке (работа с datatables через Ajax).
 
