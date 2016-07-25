@@ -108,6 +108,10 @@ hamcrest-all используется в проверках `RootControllerTest`
 
 Так делают, только при отношении <a href="https://ru.wikipedia.org/wiki/Диаграмма_классов#.D0.90.D0.B3.D1.80.D0.B5.D0.B3.D0.B0.D1.86.D0.B8.D1.8F">агрегация</a>, например если давать админу право смотреть еду любого юзера, URL мог бы быть похож на `http://localhost/topjava/rest/users/{userId}/meals/{mealId}`. В случае критериев, поиска или странчных данных они передаются как параметр.
 
+> Что означает конструкция в `JsonUtil`: `reader.<T>readValues(json)`;
+
+См. <a href="https://docs.oracle.com/javase/tutorial/java/generics/methods.html">Complete syntax</a>. Когда компилятор не может вывести тип, можно его уточнить при вызове generic метода. Не важно static или нет.
+
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW07
 
 - Добавить тесты контроллеров:
