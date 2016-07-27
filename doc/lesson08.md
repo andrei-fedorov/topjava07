@@ -1,5 +1,8 @@
 # Онлайн проекта <a href="https://github.com/JavaWebinar/topjava07">Topjava</a>
 
+- **Браузер кэширует javascript и css. Если изменения не работают, обновите приложение в браузере по Ctrl+F5**
+- **При удалении файлов не забывайте делать clean: `mvn clean package`**
+
 ### ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Правка и миграция
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZy1ONFpqOXpuWDg">0-migrate-and-fix</a>**
 - Правка <a href="https://www.codacy.com/app/javawebinar/topjava07">Codacy Issues</a>
