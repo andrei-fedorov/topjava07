@@ -127,6 +127,10 @@ Maven скачивает все депенденси в local repository, кот
 
 Проще всего делать новый запрос в новой анонимной вкладке (`Ctrl+Shift+N` в Chrome)
 
+> Оптимально ли делать доступ к статическим ресурсам (css, js, html) через webjars ?
+
+На продакшене под нагрузкой статические ресурсы лучше всего держать не в war, а снаружи. Доступ к ним делается либо через <a href="http://www.moreofless.co.uk/static-content-web-pages-images-tomcat-outside-war/">конфигурирование Tomcat</a>, но чаще всего через прокси, например <a href="https://nginx.org/ru/">Nginx</a>
+
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW08
 
 - Перевести `mealList` на `datatables` (`mealList.jsp`, `UserMealAjaxController`).
