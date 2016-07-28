@@ -58,7 +58,7 @@
 - Вопросы:
   - Почему при логине как admin еда отдаются для user?
   - Почему при логине как user не отображается список пользователей?
-  - Почему еда не редактируется и не удаляется?
+  - Почему еда не редактируется?
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMWFubFItaE5Tdzg">10-jsp-form-login.patch</a>**
 -  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
 
