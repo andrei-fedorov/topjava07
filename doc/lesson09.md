@@ -63,7 +63,7 @@
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMWFubFItaE5Tdzg">10-jsp-form-login.patch</a>**
 -  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторицазии.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторизации.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdF9BZEY5ZE8tQmM">11_auth_via_user_service.patch</a>**
 >  Изменения в проекте: вместо `LoggedUser implements UserDetails` сейчас `AuthorizedUser extends org.springframework.security.core.userdetails.User`
 
