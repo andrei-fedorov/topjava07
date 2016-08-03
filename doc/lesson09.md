@@ -44,6 +44,7 @@
 -  <a href="http://beanvalidation.org/">Bean Validation</a>
 -  <a href="https://spring.io/blog/2012/08/29/integrating-spring-mvc-with-jquery-for-validation-rules">Валидация формы по AJAX.</a>
 -  <a href="http://stackoverflow.com/questions/14730329/jpa-2-0-exception-to-use-javax-validation-package-in-jpa-2-0#answer-17142416">JSR-303, 349</a>
+- <a href="https://dzone.com/articles/spring-31-valid-requestbody">@Valid @RequestBody + Error handling</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7.  <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFcW1qeTVFdS1BdHM">Перевод DataTables на Ajax</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRWtKYVNxTzJoLW8">8-datatable-via-ajax.patch</a>**
@@ -58,11 +59,11 @@
 - Вопросы:
   - Почему при логине как admin еда отдаются для user?
   - Почему при логине как user не отображается список пользователей?
-  - Почему еда не редактируется и не удаляется?
+  - Почему еда не редактируется?
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFMWFubFItaE5Tdzg">10-jsp-form-login.patch</a>**
 -  <a href="http://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#ns-form-and-basic">Собственный form-login</a>
 
-### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторицазии.</a>
+### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 9. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFYTA4aVN4bWxzbEU">Реализация собственного провайдера авторизации.</a>
 -  **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFdF9BZEY5ZE8tQmM">11_auth_via_user_service.patch</a>**
 >  Изменения в проекте: вместо `LoggedUser implements UserDetails` сейчас `AuthorizedUser extends org.springframework.security.core.userdetails.User`
 
