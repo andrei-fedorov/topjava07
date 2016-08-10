@@ -52,15 +52,15 @@
 > В `DataJpaUserRepositoryImpl` добавилась защита от удаления-модификации Admin/User
 
 -  <a href="http://habrahabr.ru/post/265591/">Деплой Java Spring приложения в PaaS-платформу Heroku</a>
+```
+Config Vars
+  ERROR_PAGE_URL=...
+  TOPJAVA_ROOT=/app
 
-
-     Config Vars
-        ERROR_PAGE_URL=...
-        TOPJAVA_ROOT=/app
-
-     Datasources advanced
-        ssl=true
-        sslfactory=org.postgresql.ssl.NonValidatingFactory
+Datasources advanced
+    ssl=true
+    sslfactory=org.postgresql.ssl.NonValidatingFactory
+```    
 
 -  Ресурсы:
    -  <a href="https://www.heroku.com/">PaaS-платформа Heroku</a></h3>
@@ -83,7 +83,7 @@
 - <a href="http://goo.gl/forms/Oy5A7HNkWt">Заполнить форму соискателя "Разработчик Java"</a>.
 - Выполнить <a href="https://github.com/JavaWebinar/topjava07/blob/doc/doc/graduation.md#graduation-project">Graduation project</a>
   - Для участников с проверкой выпускной проект желательно сдать на ревью до 01.09.
-  - В выпусконом проекте (тестовом задании на работу) НЕ надо делать профили базы и работы с базой. Он отличается от нашего учебного - оставляйте только необходимый для работы код. 
+  - В выпусконом проекте (тестовом задании на работу) НЕ надо делать профили базы и работы с базой. В отличии от нашего учебного оставляйте только необходимый для работы код. 
    
 
 ## Возможные доработки приложения:
