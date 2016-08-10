@@ -1,5 +1,5 @@
 # Онлайн проекта <a href="https://github.com/JavaWebinar/topjava07">Topjava</a>
-## Материалы проекта в <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFflp6ZHBLSFI2OGVEZ2NQU0pzZkx4SnFmOWlzX0lzcDFjSi1SRk5OdzBYYkU">Google Drive</a> (перенес в корень)
+## Все материалы проекта в <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFflp6ZHBLSFI2OGVEZ2NQU0pzZkx4SnFmOWlzX0lzcDFjSi1SRk5OdzBYYkU">Google Drive</a> (перенес в корень)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSG5jeEVCTzZPbmc">Refactoring & Fix</a>
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT0lOZG1IZ1NydEU">0-refactoring-fix.patch</a>**
