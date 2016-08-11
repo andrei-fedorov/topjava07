@@ -77,7 +77,7 @@ Datasources advanced
    -  <a href="http://www.ibm.com/developerworks/library/j-paasshootout/">Java PaaS shootout</a>
 
 ## Домашнее задание по проекту:
-
+- Задеплоить свое приложение в Heroku. Понять, почему в окончательном варианте для деплоя часть тестов не проходить. 
 - Сделать / обновить резюме (отдать на ревью мне или в группу)
 - <a href="https://github.com/JavaOPs/topjava/blob/master/cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
 - <a href="http://goo.gl/forms/Oy5A7HNkWt">Заполнить форму соискателя "Разработчик Java"</a>.
@@ -85,7 +85,6 @@ Datasources advanced
   - Для участников с проверкой выпускной проект желательно сдать на ревью до 01.09.
   - В выпусконом проекте (тестовом задании на работу) НЕ надо делать профили базы и работы с базой. В отличии от нашего учебного оставляйте только необходимый для работы код. 
    
-
 ## Возможные доработки приложения:
 -  Перевести UI на <a href="http://angular.ru/">angular.js</a> / <a href="https://vaadin.com/elements">Vaadin elements</a> /GWT /GXT /Vaadin / ZK/ [Ваш любимый фреймворк]..
 -  Перевести проект на <a href="http://projects.spring.io/spring-boot/">Spring Boot</a>
@@ -101,7 +100,7 @@ Datasources advanced
 -  <a href="http://www.mkyong.com/spring-security/spring-security-limit-login-attempts-example">Limit login attempts example</a>
 -  Любая на ваше усмотрение.
 
-**Если Вы сделали доработку, поделитесь своим кодом со мной и другими участниками.**
+**Делитесь своими доработками!**
 
 ### Ресурсы по Проекту
 -  <a href="http://pro-cod.ru/uroki-bootstrap-3-0">Уроки Bootstrap 3</a>
@@ -118,6 +117,4 @@ Datasources advanced
 # <a href="http://goo.gl/forms/PtFcPqEV5n">Короткий опрос для всех участников проекта</a>
 
 -  В письме я вышлю ссылку для бесплатного повторного участия (первый урок 08.09) и ссылку на добавление в группу Slak "Java Online Projects", кто еще не добавился.
--  Все материалы останутся вам доступны (в том числе и обновления в следующих проектах).
--  Репозиторий на GitHub в скором времени заархивирую и положу в Google Drive вместе с уроками в формате markdown.
--  Для просмотра в Chrome файлов md я пользуюсь <a href="https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd?utm_source=chrome-app-launcher-info-dialog">плагином Markdown Preview</a> (нужно в его параметрах разрешить открывать файл по ссылкам).
+-  Все материалы (в том числе и обновления в следующих проектах) останутся вам доступны в Google Drive.
