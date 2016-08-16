@@ -86,10 +86,11 @@ Datasources advanced
   - В выпусконом проекте (тестовом задании на работу) НЕ надо делать профили базы и работы с базой. В отличии от нашего учебного оставляйте только необходимый для работы код. 
    
 ## Возможные доработки приложения:
+-  Для редактирования паролей сделать отдельный интерфейс с запросом старого пароля и кнопку сброса пароля для администратора.
+-  Добавление и удаление ролей для пользователей в админке.
 -  Перевести UI на <a href="http://angular.ru/">angular.js</a> / <a href="https://vaadin.com/elements">Vaadin elements</a> /GWT /GXT /Vaadin / ZK/ [Ваш любимый фреймворк]..
 -  Перевести проект на <a href="http://projects.spring.io/spring-boot/">Spring Boot</a>
 -  Перевести шаблоны с JSP на <a href="http://www.thymeleaf.org/doc/articles/petclinic.html">Thymeleaf</a>
--  Для редактирования паролей сделать отдельный интерфейс с запросом старого пароля и кнопку сброса пароля для администратора.
 -  Сделать авторизацию в приложение по OAuth 2.0 (<a href="http://projects.spring.io/spring-security-oauth/">Spring Security OAuth</a>,
 <a href="https://vk.com/dev/auth_mobile">VK auth</a>, <a href="https://developer.github.com/v3/oauth/">github oauth</a>, ...)
 -  Сделать подтверждение регистрации пользователя по email c возможностью восстановления пароля.
