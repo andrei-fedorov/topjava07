@@ -100,6 +100,7 @@ Map<LocalDate, Integer> caloriesSumByDate = mealList.stream()
 - <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
 - <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
 - <a href="http://logging.apache.org/log4j/2.x/index.html">Log4j</a>, <a href="http://logback.qos.ch/">Logback</a>
+- <a href="https://www.youtube.com/watch?v=qzqAUUgB3v8&ab_channel=JUG.ru">Что надо знать о логировании прагматичному Java‑программисту</a>
 - <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a> в проект. Переменная окружения TOPJAVA_ROOT
 - Конфигурирование логирования. Настройка Live Template.
 - Тестирование логирования в сервлете.
