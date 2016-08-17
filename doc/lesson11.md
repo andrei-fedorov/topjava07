@@ -130,7 +130,7 @@ Datasources advanced
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQl9LSjBsMjZGdU0">9_heroku_test_repair.patch</a>**
   - Починил тесты: запрет на модификацию admin/user происходит только если активирован Spring профиль `heroku`.
     - Перенес проверку в `AbstractUserController`
-    - Активные профили достаются из заинжектенном `Environment environment`
+    - Активные профили достаются в заинжектенном `Environment environment`
     - Добавил тесты на запрет модификации
        
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTXNzcUUzVUpRQ3c">10_js_i18n.patch</a>**
