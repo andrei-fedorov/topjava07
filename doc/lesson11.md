@@ -119,3 +119,20 @@ Datasources advanced
 
 -  В письме я вышлю ссылку для бесплатного повторного участия (первый урок 08.09) и ссылку на добавление в группу Slak "Java Online Projects", кто еще не добавился.
 -  Все материалы (в том числе и обновления в следующих проектах) останутся вам доступны в Google Drive.
+
+## Обновления
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFVUs0LTh6NU9tZnM">8_fix.patch</a>**
+  - Небольшой фикс:
+    - Починка отображения даты регистрации: `dateObject.toISOString()` не работает в Сафари
+    - Удаление лишнего `jul-to-slf4j`. Согласно <a href="https://www.youtube.com/watch?v=qzqAUUgB3v8">видео Владимир Красильщика про логирование</a>  он замедляет работу  
+    - Удалил лишние строки из `datatablesUtil.js`
+  
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFQl9LSjBsMjZGdU0">9_heroku_test_repair.patch</a>**
+  - Починил тесты: запрет на модификацию admin/user происходит только если активирован Spring профиль `heroku`.
+    - Перенес проверку в `AbstractUserController`
+    - Активные профили достаются из заинжектенном `Environment environment`
+    - Добавил тесты на запрет модификации
+       
+- **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTXNzcUUzVUpRQ3c">10_js_i18n.patch</a>**
+  - Добавил <a href="http://stackoverflow.com/questions/6218970/resolving-springmessages-in-javascript-for-i18n-internationalization#6242840">локализацию в JavaScript</a>. 
+    - В `i18n.jsp` на стороне сервера формируется JavaScript массив с локализированными значениями, который затем используется для интернационализации в браузере.  
