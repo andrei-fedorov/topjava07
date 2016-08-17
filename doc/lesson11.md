@@ -134,5 +134,5 @@ Datasources advanced
     - Добавил тесты на запрет модификации
        
 - **<a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFTXNzcUUzVUpRQ3c">10_js_i18n.patch</a>**
-  - Добавил <a href="http://stackoverflow.com/questions/6218970/resolving-springmessages-in-javascript-for-i18n-internationalization#6242840">локализацию в JavaScript</a>. 
+  - Добавил простую <a href="http://stackoverflow.com/questions/6218970/resolving-springmessages-in-javascript-for-i18n-internationalization#6242840">локализацию в JavaScript</a>. 
     - В `i18n.jsp` на стороне сервера формируется JavaScript массив с локализированными значениями, который затем используется для интернационализации в браузере.  
